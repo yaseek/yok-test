@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Testing task for YOK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose of the task
 
-## Available Scripts
+The main purpose of the task is the developing of Video React component to
+show video ads.
 
-In the project directory, you can run:
+### Main Tasks
 
-### `npm start`
+- Please use Typescript & React, additional libraries may be utilized for the test
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- All of the components should be developed in the functional style, utilizing hooks
+API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- The video ad component should be placed instead of the ad placeholder
 
-### `npm test`
+- Video shouldn’t autoplay when website is loaded
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The video shall start playing only when it is at least 50% in the viewport of the
+browser – and stop if it’s less than 50% of the video is in the viewport
 
-### `npm run build`
+- Display a message on the browser console when the video has started, has
+played through 25%, 50%, 75% and 100% of the full video length
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- In accordance with the IAB/MRC viewability standards, please display an
+additional message in the browser console, after the ad has been in the viewport
+of the browser with 50% of it viewable for 2 seconds in total
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Write tests to check the main functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Browser compatibility: your test result must work either on Android or on iOS;
+please tell us which environment you have tested against
 
-### `npm run eject`
+## Browsers that checked against:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Linux Ubuntu 18.04 Chrome
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Linux Ubuntu 18.04 Firefox
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- iPhone iOS 10 Chrome
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- iPhone iOS 10 Safari
 
-## Learn More
+- Android MIUI 12 Chrome
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Android MIUI 12 Firefox
