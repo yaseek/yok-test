@@ -31,6 +31,24 @@ of the browser with 50% of it viewable for 2 seconds in total
 - Browser compatibility: your test result must work either on Android or on iOS;
 please tell us which environment you have tested against
 
+## Installation and run
+
+After the clone of repository invoke
+```bash
+npm install
+```
+
+to run tests:
+```bash
+npm run test
+```
+
+to start application:
+```bash
+npm start
+```
+thw application will be available on [localhost](http://localhost:3000)
+
 ## Browsers that checked against:
 
 - Linux Ubuntu 18.04 Chrome
